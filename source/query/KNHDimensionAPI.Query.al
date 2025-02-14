@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Dimension API (ID 53601).
-/// </summary>
+namespace APITests;
+using Microsoft.Finance.Dimension;
+
 query 53601 KNHDimensionAPI
 {
+    QueryType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhDimension';
     EntitySetName = 'knhDimensions';
-    QueryType = API;
 
     elements
     {

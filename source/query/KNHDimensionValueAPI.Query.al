@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Dimension Value API (ID 53602).
-/// </summary>
+namespace APITests;
+using Microsoft.Finance.Dimension;
+
 query 53602 KNHDimensionValueAPI
 {
+    QueryType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhDimensionValue';
     EntitySetName = 'knhDimensionValues';
-    QueryType = API;
 
     elements
     {

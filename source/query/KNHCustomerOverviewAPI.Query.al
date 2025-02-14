@@ -1,14 +1,15 @@
-/// <summary>
-/// Query CustomerOverview API (ID 50301).
-/// </summary>
+namespace APITests;
+using Microsoft.Sales.Customer;
+using Microsoft.Sales.Receivables;
+
 query 53600 KNHCustomerOverviewAPI
 {
+    QueryType = API;
     APIGroup = 'knhGroup'; //Sets the group of the API endpoint the query is exposed in.
     APIPublisher = 'knh'; //Sets the publisher of the API endpoint the page is exposed in. 
     APIVersion = 'v2.0'; //Sets the version(s) of the API endpoint the query is exposed in. 
     EntityName = 'knhCustomerOverview'; //Sets the singular entity name for exposed page in the API endpoint.
     EntitySetName = 'knhCustomersOverview'; //Sets the plural entity name for exposed page in the API endpoint.
-    QueryType = API;
 
     elements
     {

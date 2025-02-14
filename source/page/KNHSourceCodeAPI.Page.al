@@ -1,8 +1,9 @@
-/// <summary>
-/// Page "KNHSourceCodeAPIpage" (ID 53600).
-/// </summary>
+namespace APITests;
+using Microsoft.Foundation.AuditCodes;
+
 page 53600 "KNH Source Code API"
 {
+    PageType = API;
     APIVersion = 'v2.0';
     APIPublisher = 'knh';
     APIGroup = 'knhGroup';
@@ -10,7 +11,6 @@ page 53600 "KNH Source Code API"
     DelayedInsert = true;
     EntityName = 'knhSourceCode';
     EntitySetName = 'knhSourceCodes';
-    PageType = API;
     SourceTable = "Source Code";
 
     layout

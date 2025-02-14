@@ -1,5 +1,9 @@
+namespace APITests;
+using Microsoft.Purchases.Document;
+
 page 53601 "KNH Purch Invoice API"
 {
+    PageType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
@@ -7,7 +11,6 @@ page 53601 "KNH Purch Invoice API"
     DelayedInsert = true;
     EntityName = 'knhPurchaseInvoice';
     EntitySetName = 'knhPurchaseInvoices';
-    PageType = API;
     SourceTable = "Purchase Header";
     ODataKeyFields = SystemId;
 

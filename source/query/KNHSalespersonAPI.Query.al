@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Salesperson API (ID 53605).
-/// </summary>
+namespace APITests;
+using Microsoft.CRM.Team;
+
 query 53605 KNHSalespersonAPI
 {
+    QueryType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhKSalesperson';
     EntitySetName = 'knhSalespersons';
-    QueryType = API;
 
     elements
     {

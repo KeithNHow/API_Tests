@@ -1,3 +1,6 @@
+namespace APITests;
+using Microsoft.Sales.Customer;
+
 page 53611 "KNH Customer API"
 {
     PageType = API;

@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Customer API (ID 53607).
-/// </summary>
+namespace APITests;
+using Microsoft.Sales.Customer;
+
 query 53607 KNHCustomerAPI
 {
+    QueryType = API;
     APIGroup = 'keithCorp';
-    APIPublisher = 'keithHow';
+    APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhCustomer';
     EntitySetName = 'knhCustomers';
-    QueryType = API;
 
     elements
     {

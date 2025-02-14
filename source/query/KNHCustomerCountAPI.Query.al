@@ -1,8 +1,11 @@
+namespace APITests;
+using Microsoft.Sales.Customer;
+
 query 53611 KNHCustomerCountAPI
 {
     QueryType = API;
-    APIPublisher = 'expenseIn';
-    APIGroup = 'expenseIn';
+    APIPublisher = 'keithGroup';
+    APIGroup = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'customerCount';
     EntitySetName = 'customersCount';

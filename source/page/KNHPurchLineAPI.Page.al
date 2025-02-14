@@ -1,5 +1,9 @@
+namespace APITests;
+using Microsoft.Purchases.Document;
+
 page 53603 "KNH Purch Line API"
 {
+    PageType = API;
     APIVersion = 'v2.0';
     APIPublisher = 'knh';
     APIGroup = 'knhGroup';
@@ -7,7 +11,6 @@ page 53603 "KNH Purch Line API"
     DelayedInsert = true;
     EntityName = 'knhPurchLine';
     EntitySetName = 'knhPurchLines';
-    PageType = API;
     SourceTable = "Purchase Line";
     ODataKeyFields = SystemId;
 

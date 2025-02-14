@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Customer Ledger Entry API (ID 53603).
-/// </summary>
+namespace APITests;
+using Microsoft.Sales.Receivables;
+
 query 53603 KNHCustLedgEntryAPI
 {
+    QueryType = API;
     APIGroup = 'keithGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhCustLedgEntry';
     EntitySetName = 'knhSustLedgEntries';
-    QueryType = API;
 
     elements
     {

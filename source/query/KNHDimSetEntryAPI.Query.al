@@ -1,14 +1,14 @@
-/// <summary>
-/// Query Dim Set Entry API (ID 53606).
-/// </summary>
+namespace APITests;
+using Microsoft.Finance.Dimension;
+
 query 53606 KNHDimSetEntryAPI
 {
+    QueryType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhDimSetEntry';
     EntitySetName = 'knhDimSetEntries';
-    QueryType = API;
 
     elements
     {

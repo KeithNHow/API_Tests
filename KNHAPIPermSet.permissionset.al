@@ -14,6 +14,8 @@ permissionset 53600 KNHAPIPermSet
         query KNHSalespersonAPI = X,
         query KNHSourceCodeAPI = X,
         query KNHCustomerCountAPI = X,
+        query KNHCustomerSumAPI = X,
+        query KNHCustPostGrpAPI = X,
         tabledata "KNH Customer" = RIMD,
         table "KNH Customer" = X,
         codeunit "KNH API Management" = X;

@@ -4,14 +4,13 @@ using Microsoft.Purchases.Document;
 page 53603 "KNH Purch Line API"
 {
     PageType = API;
-    APIVersion = 'v2.0';
-    APIPublisher = 'knh';
     APIGroup = 'knhGroup';
-    ChangeTrackingAllowed = true;
-    DelayedInsert = true;
-    EntityName = 'knhPurchLine';
-    EntitySetName = 'knhPurchLines';
+    APIPublisher = 'knh';
+    APIVersion = 'v2.0';
+    EntityName = 'knhPurchLinePage';
+    EntitySetName = 'knhPurchLinesPage';
     SourceTable = "Purchase Line";
+    DelayedInsert = true;
     ODataKeyFields = SystemId;
 
     layout

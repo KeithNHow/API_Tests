@@ -4,12 +4,11 @@ using Microsoft.Sales.Customer;
 page 53611 "KNH Customer API"
 {
     PageType = API;
-    Caption = 'apiPageName';
-    APIPublisher = 'expenseIn';
-    APIGroup = 'expenseIn';
+    APIGroup = 'knhGroup';
+    APIPublisher = 'knh';
     APIVersion = 'v2.0';
-    EntityName = 'customerPage';
-    EntitySetName = 'customersPage';
+    EntityName = 'knhCustomerPage';
+    EntitySetName = 'knhCustomersPage';
     SourceTable = Customer;
     DelayedInsert = true;
     ODataKeyFields = SystemId;

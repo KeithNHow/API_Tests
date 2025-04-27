@@ -4,11 +4,11 @@ using Microsoft.Sales.Receivables;
 query 53603 KNHCustLedgEntryAPI
 {
     QueryType = API;
-    APIGroup = 'keithGroup';
+    APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhCustLedgEntry';
-    EntitySetName = 'knhSustLedgEntries';
+    EntitySetName = 'knhCustLedgEntries';
 
     elements
     {

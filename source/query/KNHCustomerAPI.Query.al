@@ -4,7 +4,7 @@ using Microsoft.Sales.Customer;
 query 53607 KNHCustomerAPI
 {
     QueryType = API;
-    APIGroup = 'keithCorp';
+    APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
     EntityName = 'knhCustomer';

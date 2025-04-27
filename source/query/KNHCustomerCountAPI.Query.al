@@ -1,14 +1,15 @@
+// This API will not appear in Power BI because it is not a dataitem query.
 namespace APITests;
 using Microsoft.Sales.Customer;
 
 query 53611 KNHCustomerCountAPI
 {
     QueryType = API;
-    APIPublisher = 'keithGroup';
-    APIGroup = 'knh';
+    APIGroup = 'knhGroup';
+    APIPublisher = 'knh';
     APIVersion = 'v2.0';
-    EntityName = 'customerCount';
-    EntitySetName = 'customersCount';
+    EntityName = 'knhCustomerCount';
+    EntitySetName = 'knhCustomersCount';
 
     elements
     {

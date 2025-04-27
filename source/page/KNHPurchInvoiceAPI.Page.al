@@ -7,11 +7,10 @@ page 53601 "KNH Purch Invoice API"
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
-    Caption = 'Purchase Header';
-    DelayedInsert = true;
-    EntityName = 'knhPurchaseInvoice';
-    EntitySetName = 'knhPurchaseInvoices';
+    EntityName = 'knhPurchaseInvoicePage';
+    EntitySetName = 'knhPurchaseInvoicesPage';
     SourceTable = "Purchase Header";
+    DelayedInsert = true;
     ODataKeyFields = SystemId;
 
     layout
@@ -57,8 +56,8 @@ page 53601 "KNH Purch Invoice API"
                 {
                     Caption = 'Purchase Line';
                     Multiplicity = Many;
-                    EntityName = 'knhPurchLine';
-                    EntitySetName = 'knhPurchLines';
+                    EntityName = 'knhPurchLinePage';
+                    EntitySetName = 'knhPurchLinesPage';
                     SubPageLink = "Document No." = field("No."), "Document Type" = field("Document Type");
                 }
             }

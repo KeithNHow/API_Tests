@@ -4,14 +4,14 @@ using Microsoft.Foundation.AuditCodes;
 page 53600 "KNH Source Code API"
 {
     PageType = API;
-    APIVersion = 'v2.0';
-    APIPublisher = 'knh';
     APIGroup = 'knhGroup';
-    Caption = 'Source Code API';
-    DelayedInsert = true;
-    EntityName = 'knhSourceCode';
-    EntitySetName = 'knhSourceCodes';
+    APIPublisher = 'knh';
+    APIVersion = 'v2.0';
+    EntityName = 'knhSourceCodePage';
+    EntitySetName = 'knhSourceCodesPage';
     SourceTable = "Source Code";
+    DelayedInsert = true;
+    ODataKeyFields = SystemId;
 
     layout
     {
@@ -19,6 +19,7 @@ page 53600 "KNH Source Code API"
         {
             repeater(General)
             {
+                field(id; Rec.SystemId) { }
                 field("code"; Rec."Code") { }
                 field(description; Rec.Description) { }
             }

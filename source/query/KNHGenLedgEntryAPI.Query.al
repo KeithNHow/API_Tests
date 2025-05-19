@@ -1,5 +1,4 @@
 namespace APITests;
-using Microsoft.Sales.Receivables;
 using Microsoft.Finance.GeneralLedger.Ledger;
 
 query 53615 KNHGenLedgEntryAPI

@@ -14,46 +14,19 @@ query 53608 "KNHGLAccountAPI"
     {
         dataitem(gLAccount; "G/L Account")
         {
-            column(no; "No.")
-            {
-                Caption = 'Number';
-            }
-            column(name; Name)
-            {
-                Caption = 'Name';
-            }
-            column(balance; Balance)
-            {
-                Caption = 'Balance';
-            }
-            column(netChange; "Net Change")
-            {
-                Caption = 'Net Change';
-            }
-            column(balanceAtDate; "Balance at Date")
-            {
-                Caption = 'Balance at Date';
-            }
-            column(budgetedAmount; "Budgeted Amount")
-            {
-                Caption = 'Budgeted Amount';
-            }
-            column(budgetAtDate; "Budget at Date")
-            {
-                Caption = 'Budget at Date';
-            }
-            column(incomeBalance; "Income/Balance")
-            {
-                Caption = 'Income/Balance';
-            }
-            column(globalDimension1Code; "Global Dimension 1 Code")
-            {
-                Caption = 'Department';
-            }
-            column(globalDimension2Code; "Global Dimension 2 Code")
-            {
-                Caption = 'Customer Group';
-            }
+            column(no; "No.") { }
+            column(name; Name) { }
+            column(balance; Balance) { }
+            column(netChange; "Net Change") { }
+            column(balanceAtDate; "Balance at Date") { }
+            column(budgetedAmount; "Budgeted Amount") { }
+            column(budgetAtDate; "Budget at Date") { }
+            column(incomeBalance; "Income/Balance") { }
+            column(globalDimension1Code; "Global Dimension 1 Code") { }
+            column(globalDimension2Code; "Global Dimension 2 Code") { }
+            column(accountCategory; "Account Category") { }
+            column(genBusPostGroup; "Gen. Bus. Posting Group") { }
+            column(genProdPostGroup; "Gen. Prod. Posting Group") { }
         }
     }
 }

@@ -17,7 +17,7 @@ query 53612 KNHCustomerSumAPI
             column(balanceLCY; "Balance (LCY)")
             {
                 Method = Sum;
-                columnFilter = balanceLCY = filter(<> 0);
+                ColumnFilter = balanceLCY = filter(<> 0);
             }
         }
     }

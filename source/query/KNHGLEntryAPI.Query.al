@@ -1,14 +1,14 @@
 namespace APITests;
 using Microsoft.Finance.GeneralLedger.Ledger;
 
-query 53615 KNHGenLedgEntryAPI
+query 53615 KNHGLEntryAPI
 {
     QueryType = API;
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
     APIVersion = 'v2.0';
-    EntityName = 'knhGenLedgEntryEntry';
-    EntitySetName = 'knhGenLedgEntryEntries';
+    EntityName = 'knhGLEntry';
+    EntitySetName = 'knhGLEntries';
 
     elements
     {
@@ -19,8 +19,8 @@ query 53615 KNHGenLedgEntryAPI
             column(postingDate; "Posting Date") { }
             column(documentType; "Document Type") { }
             column(documentNo; "Document No.") { }
-            column(description; "Description") { }
-            column(amount; "Amount") { }
+            column(description; Description) { }
+            column(amount; Amount) { }
             column(globalDim1Code; "Global Dimension 1 Code") { }
             column(globalDim2Code; "Global Dimension 2 Code") { }
             column(creditAmount; "Credit Amount") { }
@@ -33,6 +33,7 @@ query 53615 KNHGenLedgEntryAPI
             column(shortcutDim6Code; "Shortcut Dimension 6 Code") { }
             column(shortcutDim7Code; "Shortcut Dimension 7 Code") { }
             column(shortcutDim8Code; "Shortcut Dimension 8 Code") { }
+            column(dimensionSetID; "Dimension Set ID") { }
         }
     }
 }

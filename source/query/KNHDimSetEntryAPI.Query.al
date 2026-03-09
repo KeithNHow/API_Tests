@@ -14,11 +14,11 @@ query 53606 KNHDimSetEntryAPI
     {
         dataitem(dimensionSetEntry; "Dimension Set Entry")
         {
-            column(dimensionCode; "Dimension Code") { }
-            column(dimensionName; "Dimension Name") { }
             column(dimensionSetID; "Dimension Set ID") { }
+            column(dimensionCode; "Dimension Code") { }
             column(dimensionValueCode; "Dimension Value Code") { }
             column(dimensionValueID; "Dimension Value ID") { }
+            column(dimensionName; "Dimension Name") { }
             column(dimensionValueName; "Dimension Value Name") { }
             column(globalDimensionNo; "Global Dimension No.") { }
         }

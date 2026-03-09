@@ -1,7 +1,7 @@
 namespace API_Tests.API_Tests;
 using Microsoft.Finance.GeneralLedger.Account;
 
-query 53608 "KNHGLAccountAPI"
+query 53608 KNHGLAccountAPI
 {
     QueryType = API;
     APIGroup = 'knhGroup';
@@ -27,6 +27,7 @@ query 53608 "KNHGLAccountAPI"
             column(accountCategory; "Account Category") { }
             column(genBusPostGroup; "Gen. Bus. Posting Group") { }
             column(genProdPostGroup; "Gen. Prod. Posting Group") { }
+            column(accountType; "Account Type") { }
         }
     }
 }

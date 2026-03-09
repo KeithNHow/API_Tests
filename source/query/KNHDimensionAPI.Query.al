@@ -14,9 +14,12 @@ query 53601 KNHDimensionAPI
     {
         dataitem(dimension; Dimension)
         {
-            column("code"; "Code") { }
+            column(code; Code) { }
             column(name; Name) { }
+            column(codeCaption; "Code Caption") { }
+            column(filterCaption; "Filter Caption") { }
             column(description; Description) { }
+            column(blocked; Blocked) { }
         }
     }
 
